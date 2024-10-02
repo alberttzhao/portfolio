@@ -183,61 +183,94 @@ params:
         company: "Marvell Technology"
         companyUrl: "https://www.marvell.com/"
         date: "May 2024 - August 2024"
+        info:
+          enable: false
         featuredLink:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I worked as a Design Verification Intern at Marvell Technology, Inc in the summer of 2024. I was responsible for preparing test plan and develop verification environment in UVM (Universal Verification Methodology)."
+        content: | 
+          I worked as a Design Verification Intern at Marvell Technology, Inc in the summer of 2024. I was responsible for preparing test plan and develop verification environment in UVM (Universal Verification Methodology).
+
+          For the first few weeks of the internship, I learned the basics of SystemVerilog and UVM using internal company resources. I also learned from other team members about the general verification process including pre-silicon and post silicon processings validation.
+
+          Then for the rest of the internship, I worked on an reactive agent in UVM. The details of the project are confidential, but I gained hands-on knowledge and experience with UVM, RTL design and verification. 
+
+          Overall, it was a great summer internship and I learned a lot from my mentors and other members on the team. I received a full-time return offer near the end of my intership; however, I declined it to pursue other opportunities in the field of engineering.
+
+          <u>Skills</u>:
+          - SystemVerilog
+          - Universal Verification Methodology (UVM)
+          - Object-Oriented Programming (OOP)
+          - RTL Design
+          - Pre-silicon and post-silicon validation
+
 
       - job: "Cyber-Physical System Research Associate"
-        company: "CIDAR Lab"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+        company: "BU CIDAR Lab"
+        companyUrl: "https://www.cidarlab.org/"
+        date: "June 2023 - Sep 2023"
         featuredLink:
           enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+          url: "https://cidarlabsummer23albert.owlstown.net/"
         info:
           enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I worked as a Cyber-Physical System Research Associate at Boston University CIDAR Lab in the summer of 2023. I was responsible for developing a housing for an aquatic environment monitoring and testing system, as well as developing software algorithms and interfaces for the automation and subsystem integration of the DepMaM Project.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          Through my summer research, I developed a high-precision syringe pump with a 3D-printed holder and high-precision stepper motors. My syringe pump ensured precise liquid dispensing into the microfluidics device for aquatic environment testing, while reducing costs and improving portability and compatibility. I used stepper motors, a Raspberry Pi, and Python to develop the syringe pump and its algorithms. I also developed a software algorithm to control the stepper motor speeds and to interface with the microfluidics device, allowing users to easily adjust the dispensing speed through the software interface.
 
-      - job: "UI/UX Designer"
-        company: "Netflix"
+          In addition to my software efforts, I also used CAD to develop a housing for the aquatic environment monitoring and testing system. The housing was designed to hold multiple tubes with different water samples and qualities, as well as pumps and controls for the system.
+
+          <u>Skills</u>:
+          - Python
+          - C++
+          - Raspberry Pi
+          - Embedded Systems
+          - CAD
+          - 3D Printing
+
+      - job: "Software Developer Intern"
+        company: "Elevo·ai"
         companyUrl: "https://example.com"
+        date: "July 2022 - Sep 2022"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        info:
+          enable: false
+        content: |
+          Elevo.ai is a solutions provider startup specializing in developing intelligent tools that enhance business decision-making and operational efficiency. During my time at Elevo.ai, I worked on improving the company's data infrastructure and processing capabilities.
+
+          I implemented clickstream data processing using Java, Python, Apache Kafka, and Rudderstack, significantly enhancing how data was collected and analyzed. By consolidating diverse data sets into a unified cloud environment, I optimized operational workflows, making data management more efficient and streamlined.
+
+          Additionally, I integrated Apache Kafka into the company's business website, which resulted in a 40% reduction in energy consumption during data transfers, directly contributing to Elevo.ai's sustainability efforts. Alongside these technical achievements, I conducted extensive market research on emerging trends, customer needs, and preferences in the AI industry, helping guide the company's strategic direction.
+
+          <u>Skills</u>:
+          - Java
+          - Python
+          - Apache Kafka
+      
+      - job: "Automation and Robotics Research Associate"
+        company: "SJSU ARMS Lab"
+        companyUrl: "https://sites.google.com/sjsu.edu/armslab/home"
         date: "June 2017 - Nov 2019"
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
+        info:
+          enable: false
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          The SJSU ARMS (Assistive Robotics and Medical System) Lab focuses on developing advanced robotics systems aimed at rehabilitation, human-robot interaction, and assistive technology. As part of my work in the lab, I designed a robotic exoskeleton limb to advance rehabilitative technology for individuals with mobility impairments, ensuring safe and compliant human interaction.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          I constructed a functional exoskeleton prototype utilizing CAD, Python, and C++ to improve mobility for paralysis patients. To enhance its effectiveness, I refined motor torque using C programming, ensuring seamless and regulated operation. I also engineered adaptive motors that could dynamically synchronize power and speed adjustments in response to patient movements, contributing to more natural and supportive motion for the users.
 
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          <u>Skills</u>:
+          - Python
+          - C
+          - C++
+          - Motor Control
 
   # Education
   education:
@@ -322,7 +355,7 @@ params:
     # title: "Custom Name"
     items:
       - title: Ansible Wrangler Automation
-        content: A cloud-integrated solution that automates incident resolution by generating and managing Ansible playbooks through ServiceNow, OpenAI, and GitHub.
+        content: A cloud-integrated solution that automates incident resolution by generating and managing Ansible playbooks through ServiceNow, LLMs, and GitHub.
         image: /images/ansible-wrangler.png
         featured:
           name: Github
