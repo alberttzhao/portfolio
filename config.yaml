@@ -355,7 +355,7 @@ params:
     # title: "Custom Name"
     items:
       - title: Ansible Wrangler Automation
-        content: A cloud-integrated solution that automates incident resolution by generating and managing Ansible playbooks through ServiceNow, LLMs, and GitHub.
+        content: A cloud-integrated solution that automates incident resolution by generating and managing Ansible playbooks through ServiceNow, LLMs, and GitHub. (Currently Working)
         image: /images/ansible-wrangler.png
         featured:
           name: Github
@@ -376,7 +376,7 @@ params:
           #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: Bike Guard
-        content: Smart device to detect theft attempts on biks uding vibration, motion, proximity and machine algorithms.
+        content: Smart device to detect theft attempts on biks uding vibration, motion, proximity and machine algorithms. (Currently Working)
         image: /images/bike-guard.png
         featured:
           name: Github
@@ -389,19 +389,19 @@ params:
           - icon: fab fa-github
             url: www.example.com
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      - title: FoodPal
+        content: Don't know what to make? Foodpal is an easy-to-use recipt suggestion algorithm and generator based on your preferences. It also automatically orders the ingredients for you on DoorDash! 
         image: /images/foodpal.png
         featured:
           name: Github
-          link: https://django-converter.herokuapp.com
+          link: https://github.com/jdsuh50/CS411-Team-Project
         badges:
           - "SQL"
           - "APIs"
           - Python
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/jdsuh50/CS411-Team-Project
 
   #Contact
   contact:

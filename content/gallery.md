@@ -3,9 +3,10 @@ title: "Get to learn more about me"
 date: 2022-06-25T18:35:46+05:30
 draft: false
 description: |  
-    Welcome to my gallery page, where you can learn more about me beyond my technical skills. 🌏
-
-    Something I love: Sunset, Hiking, Taking cool pictures 
+  Welcome to my gallery page, where you can learn more about me beyond my technical skills. 🌏
+  <br>
+  <br>
+  Some things I love: <u>Sunset</u> 🌅, <u>Nature</u> 🌵, the <u>Beach and Ocean</u> 🏖️, and taking <u>Aesthetic pictures</u> 📸. 
 layout: "gallery"
 galleryImages:
  - src: /images/gallery/photo1.JPG
@@ -23,7 +24,7 @@ galleryImages:
  - src: /images/gallery/photo7.JPG
    description: "Best Croissant I've ever had. Thank you Paris. "
  - src: /images/gallery/photo8.JPG
-   description: "Drinking Aperol Spritz and waiting for my parnets to come out of the Lourve :)"
+   description: "Drinking Aperol Spritz and waiting for my parents to come out of the Lourve :)"
 viewer: true
 viewerOptions:
   title: true                 # Display the title of each image if available
