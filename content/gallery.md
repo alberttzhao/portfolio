@@ -2,14 +2,22 @@
 title: "Get to learn more about me"
 date: 2022-06-25T18:35:46+05:30
 draft: false
-description: "Welcome to my gallery page, where you can learn more about me beyond my technical skills. 🌏"
+description: |  
+    Welcome to my gallery page, where you can learn more about me beyond my technical skills. 🌏
+
+    Something I love: Sunset, Hiking, Taking cool pictures 
 layout: "gallery"
 galleryImages:
  - src: /images/gallery/photo1.JPG
+   description: "This is my hiking pictures"
  - src: /images/gallery/photo2.JPG
+   description: "This is my hiking pictures"
  - src: /images/gallery/photo3.JPG
+   description: "This is my hiking pictures"
  - src: /images/gallery/photo4.JPG
+   description: "This is my hiking pictures"
  - src: /images/gallery/photo5.JPG
+   description: "This is my hiking pictures"
 viewer: true
 viewerOptions:
   title: true                 # Display the title of each image if available

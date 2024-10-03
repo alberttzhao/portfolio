@@ -2,9 +2,41 @@
     cursor: zoom-in;
 }
 
+/* Container for the gallery */
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;  /* Center the images within the container */
-    gap: 20px;                /* Adds space between images */
+    justify-content: center;      /* Center align the images within the container */
+    gap: 20px;                    /* Add spacing between images */
+}
+
+/* Gallery item */
+.gallery-item {
+    flex: 1 1 calc(30% - 20px);   /* Each item takes up approximately 30% of the container's width, minus the gap */
+    max-width: 300px;             /* Set a max width for each item */
+    box-sizing: border-box;       /* Include padding and border in the element's total width and height */
+}
+
+/* Image styles */
+.gallery-image {
+    width: 100%;                  /* Ensures the image fills the width of its container */
+    height: auto;                 /* Maintain the aspect ratio */
+    border-radius: 5px;           /* Adds rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for a polished look */
+    display: block;               /* Centers the image */
+    margin: 0 auto;               /* Center the image within the container */
+}
+
+/* Card text styles for descriptions */
+.card-body {
+    padding: 10px;
+    background-color: var(--background-color);  /* Use the same CSS variable as your main website */
+    border-radius: 5px;                         /* Add rounded corners */
+    margin-top: 10px;                           /* Space between the image and description */
+}
+
+.card-text {
+    font-size: 14px;            /* Set font size for the description */
+    color: var(--text-color);   /* Use the same variable as your main text to ensure consistency */
+    text-align: center;         /* Center-align the text */
 }

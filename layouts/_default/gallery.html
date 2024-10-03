@@ -23,9 +23,14 @@
     <div class="card-group p-4 gallery-container">
         <div class="row justify-content-center">
             {{ range .Params.galleryImages }}
-            <div class="col-md-4 p-0 m-0">
-                <div class="card p-0 m-0 border-0">
-                    <img class="w-100 {{if .Params.viewer | default true}}viewer-enabled-image{{end}}" style="height: auto; max-width: 100%;" src="{{ .src }}">
+            <div class="gallery-item p-2">
+                <div class="p-0 m-0 border-0">
+                    <img class="gallery-image {{if $.Params.viewer | default true}}viewer-enabled-image{{end}}" src="{{ .src }}" alt="Gallery Image">
+                    {{ if .description }}
+                    <div class="card-body text-center">
+                        <p class="card-text">{{ .description }}</p>
+                    </div>
+                    {{ end }}
                 </div>
             </div>
             {{ end }}
