@@ -9,21 +9,21 @@ description: |
 layout: "gallery"
 galleryImages:
  - src: /images/gallery/photo1.JPG
-   description: "This is my hiking pictures"
+   description: "McWay Falls in Big Sur, California. Big Sur is my ABSOLUTE favorite place on earth. The best feeling is to just drive on highway 1 and enjoy the fresh pacific breeze and sunset view. "
  - src: /images/gallery/photo2.JPG
-   description: "This is my hiking pictures"
+   description: "Race Point Beach in Provincetown, MA. Woke up at 5am and drove to the beach from the Cape with my friend to catch this beautiful sunrise."
  - src: /images/gallery/photo3.JPG
-   description: "This is my hiking pictures"
+   description: "Skogafoss Fall in Iceland. What a grand view! Iceland was absolutely beautiful! "
  - src: /images/gallery/photo4.JPG
-   description: "This is my hiking pictures"
+   description: "The Dyrholaey Cliff in Iceland. The landscape in iceland is just insane."
  - src: /images/gallery/photo5.JPG
-   description: "This is my hiking pictures"
+   description: "I took a selfie when it started snowing in Boston."
  - src: /images/gallery/photo6.JPG
-   description: "Hi"
+   description: "Running cause of pure happiness from this beautiful sunset "
  - src: /images/gallery/photo7.JPG
-   description: "Hi"
+   description: "Best Croissant I've ever had. Thank you Paris. "
  - src: /images/gallery/photo8.JPG
-   description: "Hi"
+   description: "Drinking Aperol Spritz and waiting for my parnets to come out of the Lourve :)"
 viewer: true
 viewerOptions:
   title: true                 # Display the title of each image if available

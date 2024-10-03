@@ -29,14 +29,15 @@
 
 /* Card text styles for descriptions */
 .card-body {
-    padding: 10px;
+    padding: 3px;
     background-color: var(--background-color);  /* Use the same CSS variable as your main website */
-    border-radius: 5px;                         /* Add rounded corners */
-    margin-top: 10px;                           /* Space between the image and description */
+    border-radius: 3px;                         /* Add rounded corners */
+    margin-top: 2px;                           /* Space between the image and description */
+    font-family: var(--font-family);
 }
 
 .card-text {
-    font-size: 14px;            /* Set font size for the description */
+    font-size: 11px;            /* Set font size for the description */
     color: var(--text-color);   /* Use the same variable as your main text to ensure consistency */
     text-align: center;         /* Center-align the text */
 }
