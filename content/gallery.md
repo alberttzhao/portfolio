@@ -18,6 +18,8 @@ galleryImages:
    description: "This is my hiking pictures"
  - src: /images/gallery/photo5.JPG
    description: "This is my hiking pictures"
+ - src: /images/gallery/photo6.JPG
+   description: "Hi"
 viewer: true
 viewerOptions:
   title: true                 # Display the title of each image if available
