@@ -5,8 +5,11 @@ draft: false
 description: "Welcome to my gallery page, where you can learn more about me beyond my technical skills. 🌏"
 layout: "gallery"
 galleryImages:
- - src: /images/gallery1/photo1.jpeg
- - src: /images/gallery1/photo2.jpeg
+ - src: /images/gallery/photo1.JPG
+ - src: /images/gallery/photo2.JPG
+ - src: /images/gallery/photo3.JPG
+ - src: /images/gallery/photo4.JPG
+ - src: /images/gallery/photo5.JPG
 viewer: true
 viewerOptions:
   title: true                 # Display the title of each image if available
