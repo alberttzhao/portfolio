@@ -1,3 +1,10 @@
 .viewer-enabled-image {
     cursor: zoom-in;
 }
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* Center the images within the container */
+    gap: 20px;                /* Adds space between images */
+}
