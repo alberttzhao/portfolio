@@ -12,7 +12,8 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+pagination:
+  pagerSize: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -131,7 +132,7 @@ params:
     title: "Albert Zhao"
     subtitle: "Computer Engineering and Business Adminstration"
     content: "Please see below to learn more about me, my skills, experiences, and my life. Feel free to reach out to me. "
-    image: /images/paris.jpeg
+    image: /images/headshot-new.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -157,7 +158,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/headshot.jpg"
+    image: "/images/swiss.jpeg"
     content: |-
       My name is **<u>Albert Zhao</u>**, and I am currently a 4th year undergraduate student at Boston University (Class of 2025), pursuing a major in <u>Computer Engineering</u> and a minor in <u>Business Administration</u>.
 
